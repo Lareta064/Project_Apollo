@@ -1,0 +1,47 @@
+.heading { 
+ position: relative;
+ color: #333;
+ font-weight: 700; 
+ margin-top: 0;
+ font-size: 28px;
+ margin-bottom: 30px;
+  &--small-mrg {
+	margin-bottom: 20px;
+   }
+ @media (min-width: 1200px) {
+ 	font-size: 38px;
+ 	margin-bottom: 40px;
+  } 
+  &--num:before {
+  	content: "";
+  	position: absolute;
+  	top: -40px;
+  	left: -12px;
+  	width: 26px;
+  	height: 26px;
+  	background-color: @orange;
+  	color: #FFF;
+  	font-size: 16px;
+  	font-weight: 700;  	
+  	display: block;
+  	border-radius: 50%;
+  	padding-top: 4px;
+  	padding-left: 8px;   
+    @media (min-width: 1200px) {
+ 	top: -30px;
+  	left: -32px;
+  }   
+    }
+    &--num-1:before {
+    	content: "1"; }
+    &--num-2:before {
+    	content: "2"; }
+
+    &--small-mrg-20 {
+	margin-bottom: 20px;
+    }
+    &--small-mrg-10 {
+	margin-bottom: 10px;
+    }	
+}
+
