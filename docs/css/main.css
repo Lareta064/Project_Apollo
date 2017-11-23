@@ -109,8 +109,8 @@ textarea {
 }
 @media (min-width: 1200px) {
   .heading--num:before {
-    top: -30px;
-    left: -32px;
+    top: 2px;
+    left: -33px;
   }
 }
 .heading--num-1:before {
@@ -121,6 +121,11 @@ textarea {
 }
 .heading--small-mrg-20 {
   margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  .heading--small-mrg-20 {
+    padding-top: 25px;
+  }
 }
 .heading--small-mrg-10 {
   margin-bottom: 10px;
@@ -664,12 +669,10 @@ span.infiniti {
 }
 .footer {
   background-color: #252525;
-  padding-top: 35px;
-}
-@media (min-width: 1200px) {
-  .footer {
-    padding-top: 78px;
-  }
+  /*padding-top: 35px;
+    
+    @media (min-width:1200px){
+    	padding-top: 78px; }*/
 }
 .footer__title {
   color: #F7F8F9;
@@ -710,16 +713,18 @@ span.infiniti {
   font-size: 16px;
   line-height: 22px;
   color: #6c6c6c;
-  margin-bottom: 35px;
+}
+.footer-pb {
+  padding-bottom: 35px;
 }
 @media (min-width: 768px) {
-  .footer__copyrigt {
-    margin-bottom: 45px;
+  .footer-pb {
+    padding-bottom: 42px;
   }
 }
-@media (min-width: 1200px) {
-  .footer__copyrigt {
-    margin-bottom: 75px;
+@media (min-width: 1170px) {
+  .footer-pb {
+    padding-bottom: 75px;
   }
 }
 /*# sourceMappingURL=main.css.map */
